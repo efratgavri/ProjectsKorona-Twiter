@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="koronaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="id_city" />
+    </Key>
+    <Property Name="id_city" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="city_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="clients" Relationship="Self.FK_client_city" FromRole="city" ToRole="client" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="id_client" />
+    </Key>
+    <Property Name="id_client" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="first_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_city" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="birthday" Type="DateTime" Precision="0" />
+    <Property Name="phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="mobile_phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="city" Relationship="Self.FK_client_city" FromRole="client" ToRole="city" />
+    <NavigationProperty Name="koronas" Relationship="Self.FK_korona_client" FromRole="client" ToRole="korona" />
+    <NavigationProperty Name="vaccinations" Relationship="Self.FK_vaccination_client" FromRole="client" ToRole="vaccination" />
+  </EntityType>
+  <EntityType Name="korona">
+    <Key>
+      <PropertyRef Name="id_korona" />
+    </Key>
+    <Property Name="id_korona" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_client" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="date_sick" Type="DateTime" Precision="0" />
+    <Property Name="date_vecovery" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="client" Relationship="Self.FK_korona_client" FromRole="korona" ToRole="client" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id_product" />
+    </Key>
+    <Property Name="id_product" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_product" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="vaccinations" Relationship="Self.FK_vaccination_product" FromRole="product" ToRole="vaccination" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="vaccination">
+    <Key>
+      <PropertyRef Name="id_vaccination" />
+    </Key>
+    <Property Name="id_vaccination" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_client" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="date_vaccination" Type="DateTime" Precision="0" />
+    <Property Name="id_product" Type="Int32" />
+    <NavigationProperty Name="client" Relationship="Self.FK_vaccination_client" FromRole="vaccination" ToRole="client" />
+    <NavigationProperty Name="product" Relationship="Self.FK_vaccination_product" FromRole="vaccination" ToRole="product" />
+  </EntityType>
+  <Association Name="FK_client_city">
+    <End Role="city" Type="Self.city" Multiplicity="0..1" />
+    <End Role="client" Type="Self.client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="id_city" />
+      </Principal>
+      <Dependent Role="client">
+        <PropertyRef Name="id_city" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_korona_client">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="korona" Type="Self.korona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="korona">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccination_client">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="vaccination" Type="Self.vaccination" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="vaccination">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccination_product">
+    <End Role="product" Type="Self.product" Multiplicity="0..1" />
+    <End Role="vaccination" Type="Self.vaccination" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="id_product" />
+      </Principal>
+      <Dependent Role="vaccination">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="koronaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cities" EntityType="Self.city" />
+    <EntitySet Name="clients" EntityType="Self.client" />
+    <EntitySet Name="koronas" EntityType="Self.korona" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="vaccinations" EntityType="Self.vaccination" />
+    <AssociationSet Name="FK_client_city" Association="Self.FK_client_city">
+      <End Role="city" EntitySet="cities" />
+      <End Role="client" EntitySet="clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_korona_client" Association="Self.FK_korona_client">
+      <End Role="client" EntitySet="clients" />
+      <End Role="korona" EntitySet="koronas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccination_client" Association="Self.FK_vaccination_client">
+      <End Role="client" EntitySet="clients" />
+      <End Role="vaccination" EntitySet="vaccinations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccination_product" Association="Self.FK_vaccination_product">
+      <End Role="product" EntitySet="products" />
+      <End Role="vaccination" EntitySet="vaccinations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

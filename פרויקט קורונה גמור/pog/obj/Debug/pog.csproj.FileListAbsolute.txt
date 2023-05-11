@@ -1,0 +1,39 @@
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\pog.exe.config
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\pog.exe
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\pog.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.Form1.resources
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.Properties.Resources.resources
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.csproj.GenerateResource.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.exe
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\pog\obj\Debug\pog.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.Form1.resources
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.Properties.Resources.resources
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.csproj.GenerateResource.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.exe
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\pog\obj\Debug\pog.pdb
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.csproj.AssemblyReference.cache
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.Form1.resources
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.Properties.Resources.resources
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.csproj.GenerateResource.cache
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.csproj.CoreCompileInputs.cache
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.exe
+D:\יד שרה אפרת\BLL\pog\obj\Debug\pog.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.Form1.resources
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.Properties.Resources.resources
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.csproj.GenerateResource.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.exe
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\pog\obj\Debug\pog.pdb

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="computerModelStoreContainer" CdmEntityContainer="computerEntitiesSEMINAR">
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="computerModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Category_code" ColumnName="Category_code" />
+          <ScalarProperty Name="Category_name" ColumnName="Category_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Citys">
+      <EntityTypeMapping TypeName="computerModel.Citys">
+        <MappingFragment StoreEntitySet="Citys">
+          <ScalarProperty Name="City_code" ColumnName="City_code" />
+          <ScalarProperty Name="City_name" ColumnName="City_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Company">
+      <EntityTypeMapping TypeName="computerModel.Company">
+        <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="Company_code" ColumnName="Company_code" />
+          <ScalarProperty Name="Company_Name" ColumnName="Company_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="computerModel.Customers">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="Customer_code" ColumnName="Customer_code" />
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Cell_phone" ColumnName="Cell_phone" />
+          <ScalarProperty Name="Mail_adress" ColumnName="Mail_adress" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_code" ColumnName="City_code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Damage">
+      <EntityTypeMapping TypeName="computerModel.Damage">
+        <MappingFragment StoreEntitySet="Damage">
+          <ScalarProperty Name="Damage_code" ColumnName="Damage_code" />
+          <ScalarProperty Name="Percentage_of_the_fine" ColumnName="Percentage_of_the_fine" />
+          <ScalarProperty Name="Description_of_damage" ColumnName="Description_of_damage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Equipment_in_stock">
+      <EntityTypeMapping TypeName="computerModel.Equipment_in_stock">
+        <MappingFragment StoreEntitySet="Equipment_in_stock">
+          <ScalarProperty Name="Equipment_code" ColumnName="Equipment_code" />
+          <ScalarProperty Name="Model_code" ColumnName="Model_code" />
+          <ScalarProperty Name="proper" ColumnName="proper" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Models">
+      <EntityTypeMapping TypeName="computerModel.Models">
+        <MappingFragment StoreEntitySet="Models">
+          <ScalarProperty Name="Model_codel" ColumnName="Model_codel" />
+          <ScalarProperty Name="Company_code" ColumnName="Company_code" />
+          <ScalarProperty Name="Category_code" ColumnName="Category_code" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Price_per_day" ColumnName="Price_per_day" />
+          <ScalarProperty Name="Price_per_month" ColumnName="Price_per_month" />
+          <ScalarProperty Name="Equivalent_price" ColumnName="Equivalent_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rental_details">
+      <EntityTypeMapping TypeName="computerModel.Rental_details">
+        <MappingFragment StoreEntitySet="Rental_details">
+          <ScalarProperty Name="Rental_code" ColumnName="Rental_code" />
+          <ScalarProperty Name="Product_code" ColumnName="Product_code" />
+          <ScalarProperty Name="Return_date" ColumnName="Return_date" />
+          <ScalarProperty Name="Damage_code" ColumnName="Damage_code" />
+          <ScalarProperty Name="Fine" ColumnName="Fine" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Renting">
+      <EntityTypeMapping TypeName="computerModel.Renting">
+        <MappingFragment StoreEntitySet="Renting">
+          <ScalarProperty Name="Rental_code" ColumnName="Rental_code" />
+          <ScalarProperty Name="Customer_code" ColumnName="Customer_code" />
+          <ScalarProperty Name="Final_price" ColumnName="Final_price" />
+          <ScalarProperty Name="Payment_method" ColumnName="Payment_method" />
+          <ScalarProperty Name="Rental_date" ColumnName="Rental_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

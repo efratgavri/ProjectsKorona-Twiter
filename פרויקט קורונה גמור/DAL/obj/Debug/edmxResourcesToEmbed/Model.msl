@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="yad_saraEntities">
+    <EntitySetMapping Name="ask">
+      <EntityTypeMapping TypeName="Model1.ask">
+        <MappingFragment StoreEntitySet="ask">
+          <ScalarProperty Name="idask" ColumnName="idask" />
+          <ScalarProperty Name="idcastomer" ColumnName="idcastomer" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="sumpay" ColumnName="sumpay" />
+          <ScalarProperty Name="pay" ColumnName="pay" />
+          <ScalarProperty Name="active" ColumnName="active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="castomers">
+      <EntityTypeMapping TypeName="Model1.castomers">
+        <MappingFragment StoreEntitySet="castomers">
+          <ScalarProperty Name="idcastomer" ColumnName="idcastomer" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="category">
+      <EntityTypeMapping TypeName="Model1.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="idkategory" ColumnName="idkategory" />
+          <ScalarProperty Name="namecateory" ColumnName="namecateory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="city">
+      <EntityTypeMapping TypeName="Model1.city">
+        <MappingFragment StoreEntitySet="city">
+          <ScalarProperty Name="idcity" ColumnName="idcity" />
+          <ScalarProperty Name="cityname" ColumnName="cityname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fine">
+      <EntityTypeMapping TypeName="Model1.fine">
+        <MappingFragment StoreEntitySet="fine">
+          <ScalarProperty Name="idfine" ColumnName="idfine" />
+          <ScalarProperty Name="levelfine" ColumnName="levelfine" />
+          <ScalarProperty Name="Percent" ColumnName="Percent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="items">
+      <EntityTypeMapping TypeName="Model1.items">
+        <MappingFragment StoreEntitySet="items">
+          <ScalarProperty Name="idproduct" ColumnName="idproduct" />
+          <ScalarProperty Name="iditem" ColumnName="iditem" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="available" ColumnName="available" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="Model1.products">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="idproduct" ColumnName="idproduct" />
+          <ScalarProperty Name="nameproduct" ColumnName="nameproduct" />
+          <ScalarProperty Name="costproduct" ColumnName="costproduct" />
+          <ScalarProperty Name="idkategory" ColumnName="idkategory" />
+          <ScalarProperty Name="discribproduct" ColumnName="discribproduct" />
+          <ScalarProperty Name="buycost" ColumnName="buycost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="renting">
+      <EntityTypeMapping TypeName="Model1.renting">
+        <MappingFragment StoreEntitySet="renting">
+          <ScalarProperty Name="idrenting" ColumnName="idrenting" />
+          <ScalarProperty Name="idask" ColumnName="idask" />
+          <ScalarProperty Name="iditem" ColumnName="iditem" />
+          <ScalarProperty Name="datereturn" ColumnName="datereturn" />
+          <ScalarProperty Name="dateactualreturn" ColumnName="dateactualreturn" />
+          <ScalarProperty Name="iddamage" ColumnName="iddamage" />
+          <ScalarProperty Name="fine" ColumnName="fine" />
+          <ScalarProperty Name="return" ColumnName="return" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="waiting">
+      <EntityTypeMapping TypeName="Model1.waiting">
+        <MappingFragment StoreEntitySet="waiting">
+          <ScalarProperty Name="idwaiting" ColumnName="idwaiting" />
+          <ScalarProperty Name="idproduct" ColumnName="idproduct" />
+          <ScalarProperty Name="idcust" ColumnName="idcust" />
+          <ScalarProperty Name="numofturn" ColumnName="numofturn" />
+          <ScalarProperty Name="get" ColumnName="get" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

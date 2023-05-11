@@ -1,0 +1,286 @@
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\שרי נגר\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\פתיחת קובץ\BLL\BLL\obj\Debug\BLL.pdb
+D:\יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\יד שרה אפרת\BLL\BLL\obj\Debug\BLL.dll
+D:\יד שרה אפרת\BLL\BLL\obj\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\BLL.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\BLL.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\DTO.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\EntityFramework.dll
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.dll.config
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\DTO.pdb
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\bin\Debug\EntityFramework.xml
+H:\שנה א תשפב\פרויקט\אפרת גבריאל\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\BLL.dll
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\BLL.pdb
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.dll
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\DTO.dll
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\EntityFramework.dll
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.pdb
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\DAL.dll.config
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\DTO.pdb
+D:\1יד שרה אפרת\BLL\BLL\bin\Debug\EntityFramework.xml
+D:\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.dll
+D:\1יד שרה אפרת\BLL\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\BLL\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\BLL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\BLL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\BLL\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\BLL\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\BLL\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\מצויןןןןןןןןן\BLL\obj\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\obj\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\מצויןןןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.pdb
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\BLL.dll
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\BLL.pdb
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\DTO.dll
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.pdb
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\DAL.dll.config
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\DTO.pdb
+D:\20.9מצויןןןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+D:\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.dll
+D:\20.9מצויןןןןןןןןן\BLL\obj\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 25.10מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\27.10מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 27.10מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+H:\תכנות שנה ב תשפג\אפרת גבריאל\פרויקט\7.11מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Desktop\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\סמינר 7.11מצויןןןןןןן\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\BLL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DTO.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DAL.dll.config
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\DTO.pdb
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.dll
+C:\Users\efrat gavriel\Documents\פרויקטים הדסים\הדסים\פרויקט קורונה גמור\BLL\obj\Debug\BLL.pdb

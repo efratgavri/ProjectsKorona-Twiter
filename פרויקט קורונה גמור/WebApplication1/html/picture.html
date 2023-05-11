@@ -1,0 +1,55 @@
+﻿<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image Example</title>
+</head>
+<body>-->
+<!--<form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image" onchange="previewImage(event)">
+    <img id="preview" src="#" alt="Image Preview">
+    <br>
+    <input type="submit" value="Upload">
+</form>
+
+<script>
+function previewImage(event) {
+  var reader = new FileReader();
+  reader.onload = function(){
+    var preview = document.getElementById('preview');
+    preview.src = reader.result;
+  };
+  reader.readAsDataURL(event.target.files[0]);
+}
+</script>-->
+<!--<form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileToUpload">
+        <a href="picture.html">picture.html</a>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Image Example</title>
+</head>
+<body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" onchange="previewImage(event)">
+        <img id="preview" src="#" alt="Image Preview">
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var preview = document.getElementById('preview');
+                preview.src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+</body>
+</html>

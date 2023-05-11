@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="computerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Category_code" />
+    </Key>
+    <Property Name="Category_code" Type="int" Nullable="false" />
+    <Property Name="Category_name" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Citys">
+    <Key>
+      <PropertyRef Name="City_code" />
+    </Key>
+    <Property Name="City_code" Type="int" Nullable="false" />
+    <Property Name="City_name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Company_code" />
+    </Key>
+    <Property Name="Company_code" Type="int" Nullable="false" />
+    <Property Name="Company_Name" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="Customer_code" />
+    </Key>
+    <Property Name="Customer_code" Type="int" Nullable="false" />
+    <Property Name="First_name" Type="varchar" MaxLength="20" />
+    <Property Name="Last_Name" Type="varchar" MaxLength="20" />
+    <Property Name="Phone" Type="varchar" MaxLength="10" />
+    <Property Name="Cell_phone" Type="varchar" MaxLength="10" />
+    <Property Name="Mail_adress" Type="varchar" MaxLength="30" />
+    <Property Name="Address" Type="varchar" MaxLength="30" />
+    <Property Name="City_code" Type="int" />
+  </EntityType>
+  <EntityType Name="Damage">
+    <Key>
+      <PropertyRef Name="Damage_code" />
+    </Key>
+    <Property Name="Damage_code" Type="int" Nullable="false" />
+    <Property Name="Percentage_of_the_fine" Type="float" />
+    <Property Name="Description_of_damage" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Equipment_in_stock">
+    <Key>
+      <PropertyRef Name="Equipment_code" />
+    </Key>
+    <Property Name="Equipment_code" Type="int" Nullable="false" />
+    <Property Name="Model_code" Type="int" />
+    <Property Name="proper" Type="bit" />
+    <Property Name="Remarks" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Models">
+    <Key>
+      <PropertyRef Name="Model_codel" />
+    </Key>
+    <Property Name="Model_codel" Type="int" Nullable="false" />
+    <Property Name="Company_code" Type="int" />
+    <Property Name="Category_code" Type="int" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="Price_per_day" Type="money" />
+    <Property Name="Price_per_month" Type="money" />
+    <Property Name="Equivalent_price" Type="money" />
+  </EntityType>
+  <EntityType Name="Rental_details">
+    <Key>
+      <PropertyRef Name="Rental_code" />
+    </Key>
+    <Property Name="Rental_code" Type="int" Nullable="false" />
+    <Property Name="Product_code" Type="int" Nullable="false" />
+    <Property Name="Return_date" Type="date" />
+    <Property Name="Damage_code" Type="int" />
+    <Property Name="Fine" Type="money" />
+    <Property Name="Payment" Type="money" />
+  </EntityType>
+  <EntityType Name="Renting">
+    <Key>
+      <PropertyRef Name="Rental_code" />
+    </Key>
+    <Property Name="Rental_code" Type="int" Nullable="false" />
+    <Property Name="Customer_code" Type="int" />
+    <Property Name="Final_price" Type="money" />
+    <Property Name="Payment_method" Type="varchar" MaxLength="10" />
+    <Property Name="Rental_date" Type="date" />
+  </EntityType>
+  <Association Name="FK_Customers_Citys">
+    <End Role="Citys" Type="Self.Citys" Multiplicity="0..1" />
+    <End Role="Customers" Type="Self.Customers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Citys">
+        <PropertyRef Name="City_code" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="City_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Equipment_in_stock_Models">
+    <End Role="Models" Type="Self.Models" Multiplicity="0..1" />
+    <End Role="Equipment_in_stock" Type="Self.Equipment_in_stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Models">
+        <PropertyRef Name="Model_codel" />
+      </Principal>
+      <Dependent Role="Equipment_in_stock">
+        <PropertyRef Name="Model_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Models_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Models" Type="Self.Models" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Category_code" />
+      </Principal>
+      <Dependent Role="Models">
+        <PropertyRef Name="Category_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Models_Company">
+    <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+    <End Role="Models" Type="Self.Models" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Company_code" />
+      </Principal>
+      <Dependent Role="Models">
+        <PropertyRef Name="Company_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rental_details_Damage">
+    <End Role="Damage" Type="Self.Damage" Multiplicity="0..1" />
+    <End Role="Rental_details" Type="Self.Rental_details" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Damage">
+        <PropertyRef Name="Damage_code" />
+      </Principal>
+      <Dependent Role="Rental_details">
+        <PropertyRef Name="Damage_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Rental_details_Renting">
+    <End Role="Renting" Type="Self.Renting" Multiplicity="1" />
+    <End Role="Rental_details" Type="Self.Rental_details" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Renting">
+        <PropertyRef Name="Rental_code" />
+      </Principal>
+      <Dependent Role="Rental_details">
+        <PropertyRef Name="Rental_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="computerModelStoreContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Citys" EntityType="Self.Citys" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Company" EntityType="Self.Company" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Damage" EntityType="Self.Damage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Equipment_in_stock" EntityType="Self.Equipment_in_stock" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Models" EntityType="Self.Models" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rental_details" EntityType="Self.Rental_details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Renting" EntityType="Self.Renting" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Customers_Citys" Association="Self.FK_Customers_Citys">
+      <End Role="Citys" EntitySet="Citys" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Equipment_in_stock_Models" Association="Self.FK_Equipment_in_stock_Models">
+      <End Role="Models" EntitySet="Models" />
+      <End Role="Equipment_in_stock" EntitySet="Equipment_in_stock" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Models_Category" Association="Self.FK_Models_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Models" EntitySet="Models" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Models_Company" Association="Self.FK_Models_Company">
+      <End Role="Company" EntitySet="Company" />
+      <End Role="Models" EntitySet="Models" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rental_details_Damage" Association="Self.FK_Rental_details_Damage">
+      <End Role="Damage" EntitySet="Damage" />
+      <End Role="Rental_details" EntitySet="Rental_details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Rental_details_Renting" Association="Self.FK_Rental_details_Renting">
+      <End Role="Renting" EntitySet="Renting" />
+      <End Role="Rental_details" EntitySet="Rental_details" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

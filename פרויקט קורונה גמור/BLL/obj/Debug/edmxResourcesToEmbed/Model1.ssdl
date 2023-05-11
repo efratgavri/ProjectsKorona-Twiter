@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ask">
+    <Key>
+      <PropertyRef Name="idask" />
+    </Key>
+    <Property Name="idask" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idcastomer" Type="int" />
+    <Property Name="date" Type="date" />
+    <Property Name="sumpay" Type="money" />
+    <Property Name="pay" Type="money" />
+    <Property Name="active" Type="bit" />
+  </EntityType>
+  <EntityType Name="castomers">
+    <Key>
+      <PropertyRef Name="idcastomer" />
+    </Key>
+    <Property Name="idcastomer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="firstname" Type="nvarchar" MaxLength="20" />
+    <Property Name="lastname" Type="nvarchar" MaxLength="20" />
+    <Property Name="phone" Type="nvarchar" MaxLength="10" />
+    <Property Name="mail" Type="nvarchar" MaxLength="30" />
+    <Property Name="adress" Type="nvarchar" MaxLength="20" />
+    <Property Name="idcity" Type="int" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="idkategory" />
+    </Key>
+    <Property Name="idkategory" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="namecateory" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="idcity" />
+    </Key>
+    <Property Name="idcity" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cityname" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="fine">
+    <Key>
+      <PropertyRef Name="idfine" />
+    </Key>
+    <Property Name="idfine" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="levelfine" Type="nvarchar" MaxLength="20" />
+    <Property Name="Percent" Type="int" />
+  </EntityType>
+  <EntityType Name="items">
+    <Key>
+      <PropertyRef Name="iditem" />
+    </Key>
+    <Property Name="idproduct" Type="int" Nullable="false" />
+    <Property Name="iditem" Type="int" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="20" />
+    <Property Name="available" Type="bit" />
+  </EntityType>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="idproduct" />
+    </Key>
+    <Property Name="idproduct" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nameproduct" Type="nvarchar" MaxLength="20" />
+    <Property Name="costproduct" Type="money" />
+    <Property Name="idkategory" Type="int" />
+    <Property Name="discribproduct" Type="nvarchar" MaxLength="80" />
+    <Property Name="buycost" Type="money" />
+  </EntityType>
+  <EntityType Name="renting">
+    <Key>
+      <PropertyRef Name="idrenting" />
+    </Key>
+    <Property Name="idrenting" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idask" Type="int" />
+    <Property Name="iditem" Type="int" />
+    <Property Name="datereturn" Type="date" />
+    <Property Name="dateactualreturn" Type="date" />
+    <Property Name="iddamage" Type="int" />
+    <Property Name="fine" Type="money" />
+    <Property Name="return" Type="bit" />
+  </EntityType>
+  <EntityType Name="waiting">
+    <Key>
+      <PropertyRef Name="idwaiting" />
+    </Key>
+    <Property Name="idwaiting" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idproduct" Type="int" />
+    <Property Name="idcust" Type="int" />
+    <Property Name="numofturn" Type="int" />
+    <Property Name="get" Type="bit" />
+  </EntityType>
+  <Association Name="FK_ask_castomers">
+    <End Role="castomers" Type="Self.castomers" Multiplicity="0..1" />
+    <End Role="ask" Type="Self.ask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="castomers">
+        <PropertyRef Name="idcastomer" />
+      </Principal>
+      <Dependent Role="ask">
+        <PropertyRef Name="idcastomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_castomers_city">
+    <End Role="city" Type="Self.city" Multiplicity="0..1" />
+    <End Role="castomers" Type="Self.castomers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="idcity" />
+      </Principal>
+      <Dependent Role="castomers">
+        <PropertyRef Name="idcity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_items_products">
+    <End Role="products" Type="Self.products" Multiplicity="1" />
+    <End Role="items" Type="Self.items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="products">
+        <PropertyRef Name="idproduct" />
+      </Principal>
+      <Dependent Role="items">
+        <PropertyRef Name="idproduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_products_category">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="products" Type="Self.products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="idkategory" />
+      </Principal>
+      <Dependent Role="products">
+        <PropertyRef Name="idkategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renting_ask">
+    <End Role="ask" Type="Self.ask" Multiplicity="0..1" />
+    <End Role="renting" Type="Self.renting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ask">
+        <PropertyRef Name="idask" />
+      </Principal>
+      <Dependent Role="renting">
+        <PropertyRef Name="idask" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renting_fine">
+    <End Role="fine" Type="Self.fine" Multiplicity="0..1" />
+    <End Role="renting" Type="Self.renting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="fine">
+        <PropertyRef Name="idfine" />
+      </Principal>
+      <Dependent Role="renting">
+        <PropertyRef Name="iddamage" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renting_items">
+    <End Role="items" Type="Self.items" Multiplicity="0..1" />
+    <End Role="renting" Type="Self.renting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="items">
+        <PropertyRef Name="iditem" />
+      </Principal>
+      <Dependent Role="renting">
+        <PropertyRef Name="iditem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_renting_items1">
+    <End Role="items" Type="Self.items" Multiplicity="0..1" />
+    <End Role="renting" Type="Self.renting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="items">
+        <PropertyRef Name="iditem" />
+      </Principal>
+      <Dependent Role="renting">
+        <PropertyRef Name="iditem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_waiting_castomers">
+    <End Role="castomers" Type="Self.castomers" Multiplicity="0..1" />
+    <End Role="waiting" Type="Self.waiting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="castomers">
+        <PropertyRef Name="idcastomer" />
+      </Principal>
+      <Dependent Role="waiting">
+        <PropertyRef Name="idcust" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="ask" EntityType="Self.ask" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="castomers" EntityType="Self.castomers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="city" EntityType="Self.city" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="fine" EntityType="Self.fine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="items" EntityType="Self.items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="products" EntityType="Self.products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="renting" EntityType="Self.renting" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="waiting" EntityType="Self.waiting" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ask_castomers" Association="Self.FK_ask_castomers">
+      <End Role="castomers" EntitySet="castomers" />
+      <End Role="ask" EntitySet="ask" />
+    </AssociationSet>
+    <AssociationSet Name="FK_castomers_city" Association="Self.FK_castomers_city">
+      <End Role="city" EntitySet="city" />
+      <End Role="castomers" EntitySet="castomers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_items_products" Association="Self.FK_items_products">
+      <End Role="products" EntitySet="products" />
+      <End Role="items" EntitySet="items" />
+    </AssociationSet>
+    <AssociationSet Name="FK_products_category" Association="Self.FK_products_category">
+      <End Role="category" EntitySet="category" />
+      <End Role="products" EntitySet="products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renting_ask" Association="Self.FK_renting_ask">
+      <End Role="ask" EntitySet="ask" />
+      <End Role="renting" EntitySet="renting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renting_fine" Association="Self.FK_renting_fine">
+      <End Role="fine" EntitySet="fine" />
+      <End Role="renting" EntitySet="renting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renting_items" Association="Self.FK_renting_items">
+      <End Role="items" EntitySet="items" />
+      <End Role="renting" EntitySet="renting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_renting_items1" Association="Self.FK_renting_items1">
+      <End Role="items" EntitySet="items" />
+      <End Role="renting" EntitySet="renting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_waiting_castomers" Association="Self.FK_waiting_castomers">
+      <End Role="castomers" EntitySet="castomers" />
+      <End Role="waiting" EntitySet="waiting" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

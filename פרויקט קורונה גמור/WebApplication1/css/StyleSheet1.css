@@ -1,0 +1,37 @@
+﻿body {
+    background-color:#b7dad2
+}
+
+.a {
+    background-color: #b7dad2;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+header {
+    background-color: #75ada7;
+    position: fixed;
+    position: relative;
+    height: 150px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+}
+
+table {
+    z-index: 13;
+    top: 50px;
+    align-items: center;
+    font: normal 16pt david;
+    width: 100%;
+    margin: 0 0% 0 3%;
+}
+
+img {
+    width: 250px;
+    height: 100px;
+}

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="koronaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="city">
+    <Key>
+      <PropertyRef Name="id_city" />
+    </Key>
+    <Property Name="id_city" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="city_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="id_client" />
+    </Key>
+    <Property Name="id_client" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="first_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="last_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_city" Type="int" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="birthday" Type="date" />
+    <Property Name="phone" Type="nchar" MaxLength="10" />
+    <Property Name="mobile_phone" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="korona">
+    <Key>
+      <PropertyRef Name="id_korona" />
+    </Key>
+    <Property Name="id_korona" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_client" Type="nchar" MaxLength="10" />
+    <Property Name="date_sick" Type="date" />
+    <Property Name="date_vecovery" Type="date" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="id_product" />
+    </Key>
+    <Property Name="id_product" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_product" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="vaccination">
+    <Key>
+      <PropertyRef Name="id_vaccination" />
+    </Key>
+    <Property Name="id_vaccination" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_client" Type="nchar" MaxLength="10" />
+    <Property Name="date_vaccination" Type="date" />
+    <Property Name="id_product" Type="int" />
+  </EntityType>
+  <Association Name="FK_client_city">
+    <End Role="city" Type="Self.city" Multiplicity="0..1" />
+    <End Role="client" Type="Self.client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="city">
+        <PropertyRef Name="id_city" />
+      </Principal>
+      <Dependent Role="client">
+        <PropertyRef Name="id_city" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_korona_client">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="korona" Type="Self.korona" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="korona">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccination_client">
+    <End Role="client" Type="Self.client" Multiplicity="0..1" />
+    <End Role="vaccination" Type="Self.vaccination" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="client">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="vaccination">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_vaccination_product">
+    <End Role="product" Type="Self.product" Multiplicity="0..1" />
+    <End Role="vaccination" Type="Self.vaccination" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="product">
+        <PropertyRef Name="id_product" />
+      </Principal>
+      <Dependent Role="vaccination">
+        <PropertyRef Name="id_product" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="koronaModelStoreContainer">
+    <EntitySet Name="city" EntityType="Self.city" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="client" EntityType="Self.client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="korona" EntityType="Self.korona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vaccination" EntityType="Self.vaccination" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_client_city" Association="Self.FK_client_city">
+      <End Role="city" EntitySet="city" />
+      <End Role="client" EntitySet="client" />
+    </AssociationSet>
+    <AssociationSet Name="FK_korona_client" Association="Self.FK_korona_client">
+      <End Role="client" EntitySet="client" />
+      <End Role="korona" EntitySet="korona" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccination_client" Association="Self.FK_vaccination_client">
+      <End Role="client" EntitySet="client" />
+      <End Role="vaccination" EntitySet="vaccination" />
+    </AssociationSet>
+    <AssociationSet Name="FK_vaccination_product" Association="Self.FK_vaccination_product">
+      <End Role="product" EntitySet="product" />
+      <End Role="vaccination" EntitySet="vaccination" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
